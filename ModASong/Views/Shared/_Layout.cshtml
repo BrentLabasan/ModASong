@@ -32,11 +32,15 @@
     </div>
         -->
 
-    <div class="jumbotron text-center">
-        <h1>Mod A Song {{ modifier }} {{ 1+1 }}</h1>
+    <div class="jumbotron text-center" style="background: url('{{url}}')">
+        <h1>Mod A Song</h1>
         <p class="lead">Enter in a song title to discover various ways to modify it !!</p>
-        <input id="search" type="text" value="Phil Collins - In The Air Tonight" />
+        <input id="search" type="text"/>
+        <br/>
+        <span>MODIFIER: {{ modifier }}</span>
+        <!--
         <button>SEARCH</button>
+            -->
     </div>
 
     <div class="container body-content">

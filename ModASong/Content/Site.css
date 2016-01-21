@@ -23,6 +23,8 @@ textarea {
 
 #search {
     width: 960px;
+    border: 1px 0 1px 1px;
+    border-color: lightgrey;
 }
 
 .jumbotron {
