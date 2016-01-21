@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModASong", "ModASong\ModASong.csproj", "{CA7E0521-8D08-4AA4-9000-EB45F66AFD55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModASong.Tests", "ModASong.Tests\ModASong.Tests.csproj", "{F8456B77-7093-465B-BE29-19DA7BB7E304}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA7E0521-8D08-4AA4-9000-EB45F66AFD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7E0521-8D08-4AA4-9000-EB45F66AFD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7E0521-8D08-4AA4-9000-EB45F66AFD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7E0521-8D08-4AA4-9000-EB45F66AFD55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8456B77-7093-465B-BE29-19DA7BB7E304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8456B77-7093-465B-BE29-19DA7BB7E304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8456B77-7093-465B-BE29-19DA7BB7E304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8456B77-7093-465B-BE29-19DA7BB7E304}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
