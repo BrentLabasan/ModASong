@@ -8,7 +8,7 @@
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
-<body>
+<body ng-app="ModASongApp" ng-controller="MainController">
     <!--
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -32,10 +32,11 @@
     </div>
         -->
 
-    <div class="jumbotron">
-        <h1>Mod A Song</h1>
+    <div class="jumbotron text-center">
+        <h1>Mod A Song {{ modifier }} {{ 1+1 }}</h1>
         <p class="lead">Enter in a song title to discover various ways to modify it !!</p>
         <input id="search" type="text" value="Phil Collins - In The Air Tonight" />
+        <button>SEARCH</button>
     </div>
 
     <div class="container body-content">
@@ -48,6 +49,10 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/scripts/angular.js")
+    @Scripts.Render("~/scripts/ModASong.js")
+
+
     @RenderSection("scripts", required: false)
 </body>
 </html>
